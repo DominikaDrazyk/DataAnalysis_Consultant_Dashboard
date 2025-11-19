@@ -24,11 +24,10 @@ It helps the Consultant to:
 
 With these inputs, the app creators can ground their decisions in data rather than assumptions and quickly understand where their app stands relative to the market.
 
+
 ### Data & Source Metadata
 
-External data source (Kaggle):
-
-Google Play Store Apps dataset [link](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) 
+External data source (Kaggle): Google Play Store Apps dataset [<link>](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) 
 
 
 ### Key variables
@@ -81,19 +80,19 @@ Version control & sharing: Git & GitHub
 <br> Code: `preprocessing_code.py`
 
 - Load the dataset into PowerBI and prepare a star schema model.
-<br> File: `AppPerformance_dashboard.pibx`
+<br> File: `AppPerformance_dashboard.pbix`
 
 - Design drill-down hierarchy for Category-Genre levels, calculated columns and aggregation measures.
-<br> File: `AppPerformance_dashboard.pibx`
+<br> File: `AppPerformance_dashboard.pbix`
 
 - Plan for multi-page thematic layouts with navigation and filtering panels.
-<br> File: `AppPerformance_dashboard.pibx`
+<br> File: `AppPerformance_dashboard.pbix`
 
 - Create data visualizations, KPI cards and slicers.
-<br> File: `AppPerformance_dashboard.pibx`
+<br> File: `AppPerformance_dashboard.pbix`
 
-- Make sure that the design of the dashboard provides a functional market analysis flow useful to Product Managers.
-<br> File: `AppPerformance_dashboard.pibx`
+- Make sure that dashboard design provides a functional market analysis flow useful to Product Managers.
+<br> File: `AppPerformance_dashboard.pbix`
 
 
 ### What this project delivers:
@@ -114,7 +113,7 @@ Version control & sharing: Git & GitHub
 :grey_exclamation: This dashboard was created as a portfolio project to demonstrate analytical and data-modelling skills, as well as the Power BI proficiency. While the dataset has clear limitations, it serves adequately for those purposes.
 
 
-## :black_circle: Key skills
+## :black_circle: Presented skills
 
 **Data modelling**
 - Designing a *star-schema model* (fact table + dimension tables).
