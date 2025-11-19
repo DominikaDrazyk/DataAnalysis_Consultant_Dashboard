@@ -27,7 +27,7 @@ With these inputs, the app creators can ground their decisions in data rather th
 
 ### Data & Source Metadata
 
-External data source (Kaggle): Google Play Store Apps dataset [<link>](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) 
+External data source (Kaggle): Google Play Store Apps dataset [link](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) 
 
 
 ### Key variables
