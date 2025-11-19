@@ -24,6 +24,13 @@ It helps the Consultant to:
 
 With these inputs, the app creators can ground their decisions in data rather than assumptions and quickly understand where their app stands relative to the market.
 
+![Screenshot of the first dashboard page - EXPO.](/images/Consultant_Dashboard_EXPO.jpg)
+
+![Screenshot of the second dashboard page - YOUR CHOICE.](/images/Consultant_Dashboard_YOUR_CHOICE.jpg)
+
+![Screenshot of the third dashboard page - YOUR TRENDS.](/images/Consultant_Dashboard_YOUR_TRENDS_OFF.jpg)
+
+![Screenshot of the third dashboard page - YOUR TRENDS with Filters Panel.](/images/Consultant_Dashboard_YOUR_TRENDS_ON.jpg)
 
 ### Data & Source Metadata
 
