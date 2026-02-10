@@ -17,18 +17,22 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
+# Paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FONT_PATH = os.path.join(BASE_DIR, '..', 'assets', 'fonts', 'Ubuntu-Regular.ttf')
+STYLE_PATH = os.path.join(BASE_DIR, 'custom.mplstyle')
+FIGURES_PATH = os.path.join(BASE_DIR, '..', 'figures')
+DATA_PATH = os.path.join(BASE_DIR, '..', 'data')
+
 custom_params = {"font.size": 16, "axes.titlesize": 14, "axes.labelsize": 10, "legend.fontsize": 10,
                  'axes.facecolor':'white', 'figure.facecolor':'white', "grid.color": 'lightgray',
                  "axes.edgecolor": '#3D3D3D', 'xtick.color': '#3D3D3D', 'ytick.color': '#3D3D3D',
                  "grid.linewidth": 1, "axes.linewidth": 1.25, 'xtick.bottom': True,
                  'ytick.left': True, "xtick.major.size": 5, "ytick.major.size": 5,
                  "xtick.minor.size": 2, "ytick.minor.size": 2}
-sns.set_theme(context = 'paper', palette = 'muted', font = "Rubik", rc = custom_params)
+sns.set_theme(context = 'paper', palette = 'muted', font = "Ubuntu", rc = custom_params)
 pd.options.display.precision = 3
-plt.style.use('custom.mplstyle')
-
-# Paths
-path = os.path.dirname(os.path.dirname( __file__ ))
+plt.style.use(STYLE_PATH)
 
 # Functions
 def remove_using_emoji(txt):
@@ -36,12 +40,12 @@ def remove_using_emoji(txt):
 
 def load_datasets():
     print("---- O1.1 Loading datasets...")
-    dfdat_path = os.path.join(path, 'data/googleplaystore.csv')
-    df_dat = pd.read_csv(dfdat_path)
+    df_path = os.path.join(DATA_PATH, 'googleplaystore.csv')
+    df_dat = pd.read_csv(df_path)
     print(f"✓ Main dataset loaded: {len(df_dat):,} records")
 
-    dfrev_path = os.path.join(path, 'data/googleplaystore_user_reviews.csv')
-    df_rev = pd.read_csv(dfrev_path)
+    df_path = os.path.join(DATA_PATH, 'googleplaystore_user_reviews.csv')
+    df_rev = pd.read_csv(df_path)
     print(f"✓ Reviews dataset loaded: {len(df_rev):,} records\n")
     print()
     return df_dat, df_rev
@@ -219,7 +223,9 @@ def review_missing_data(df):
 def save_preprocessed_datasets(df):
     print("---- O1.6 Saving preprocessed dataset:")
 
-    df.to_csv('../data/prep_fact_data.csv', encoding='utf-8', index = False)
+    file_name = 'prep_fact_data.csv'
+    save_path = os.path.join(DATA_PATH, file_name)
+    df.to_csv(save_path, encoding='utf-8', index=False)
     print(f"✓ Fact dataset saved: ../data/prep_fact_data.csv ({df.shape[0]:,} rows)")
 
 def main():
