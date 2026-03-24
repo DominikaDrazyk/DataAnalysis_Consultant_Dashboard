@@ -2,14 +2,17 @@
 
 ## :black_circle: About Me
 
-I am a Doctor of Neuroscience with strong experience in data analysis, statistical modelling and research design. I focus on translating complex data into actionable insights for business and policy.
+I am a Doctor of Neuroscience with strong experience in data analysis, statistical modelling and research design. I focus on translating complex data into actionable insights for business and policy. I enjoy data wrangling, visualization, and project management.
 
-**Skills & tools**: advanced R, intermediate Python (*pandas*, *NumPy*, *matplotlib*, *seaborn*, *scipy*), developing my skills in Power BI & PowerApps. I enjoy data wrangling, visualization, and project management. My experience was gained through academic research and industry projects.
+**Skills & tools:** 
+- advanced **R**, advanced **Python** (*pandas*, *NumPy*, *matplotlib*, *seaborn*, *scipy*) - see my [Python portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_Efficiency_and_Diversity), 
+- developing my skills in **Power BI** and **Power Apps** - see my [PowerBI portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_Consultant_Dashboard),
+- developing my skills in **SQL** (**ETL**, **PostgreSQL**, **pgAdmin4**, **DBeaver**) - read along for more information,
+- technical documentation in **Jupyter Notebook** (*Markdown* syntax), version control in **Git**.
 
 &emsp; **Location**: Poland, Krakow <br> 
 &emsp; **Contact**: dominika.a.drazyk@gmail.com <br> 
 &emsp; **LinkedIn**: [in/dominika-drazyk-otw95](https://www.linkedin.com/in/dominika-drazyk-otw95/)
-
 
 ## :black_circle: Overview
 
@@ -34,8 +37,7 @@ With these inputs, the app creators can ground their decisions in data rather th
 
 ### Data & Source Metadata
 
-External data source (Kaggle): Google Play Store Apps dataset [link](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) 
-
+External data source (Kaggle): [Google Play Store Apps dataset](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) and available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ### Key variables
 
@@ -74,11 +76,11 @@ External data source (Kaggle): Google Play Store Apps dataset [link](https://www
 
 ### Tools & Methods
 
-Data Preprocessing: Python {`pandas`, `matplotlib`, `seaborn`}
+*Data Preprocessing*: Python {`pandas`, `matplotlib`, `seaborn`}
 
-Data Analysis and Visualization: Dashboard – Microsoft PowerBI
+*Data Analysis and Visualization*: Dashboard – Microsoft PowerBI
 
-Version control & sharing: Git & GitHub
+*Version control & sharing*: Git & GitHub
 
 
 ## :black_circle: Objectives
@@ -118,7 +120,6 @@ Version control & sharing: Git & GitHub
 - Several `Genres` contain only a small number of Apps, which limits the reliability of some category-level comparisons or trend-based interpretation. 
 
 :grey_exclamation: This dashboard was created as a portfolio project to demonstrate analytical and data-modelling skills, as well as the Power BI proficiency. While the dataset has clear limitations, it serves adequately for those purposes.
-
 
 ## :black_circle: Presented skills
 
