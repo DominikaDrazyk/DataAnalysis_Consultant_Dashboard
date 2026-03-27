@@ -1,20 +1,58 @@
 # Google Apps Performance <br> Consultant Dashboard
 
-## :black_circle: About Me
+## :large_orange_diamond: About Me
 
 I am a Doctor of Neuroscience with strong experience in data analysis, statistical modelling and research design. I focus on translating complex data into actionable insights for business and policy. I enjoy data wrangling, visualization, and project management.
 
 **Skills & tools:** 
 - advanced **R**, advanced **Python** (*pandas*, *NumPy*, *matplotlib*, *seaborn*, *scipy*) - see my [Python portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_Efficiency_and_Diversity), 
-- developing my skills in **Power BI** and **Power Apps** - see my [PowerBI portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_Consultant_Dashboard),
-- developing my skills in **SQL** (**ETL**, **PostgreSQL**, **pgAdmin4**, **DBeaver**) - read along for more information,
+- developing my skills in **Power BI** and **Power Apps**,
+- developing my skills in **SQL** (**ETL**, **PostgreSQL**, **pgAdmin4**, **DBeaver**) - see my [SQL portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_eCommerce_Audit),
 - technical documentation in **Jupyter Notebook** (*Markdown* syntax), version control in **Git**.
 
 &emsp; **Location**: Poland, Krakow <br> 
 &emsp; **Contact**: dominika.a.drazyk@gmail.com <br> 
 &emsp; **LinkedIn**: [in/dominika-drazyk-otw95](https://www.linkedin.com/in/dominika-drazyk-otw95/)
 
-## :black_circle: Overview
+## :large_orange_diamond: Project Navigation
+Select the path that best matches your interest:
+
+**1. Executive & Business Insight** <br>
+*For reviewers focused on storytelling, strategy, and end-results.*
+
+- [PDF Presentation](./reports/Consultant_Dashboard_presentation.pdf): a step-by-step walkthrough of the project’s assumptions, technical execution highlights, and business insights;
+
+- [Images](./images/): a repository of example dashboard screenshots.
+
+**2. Technical Deep-Dive & Audit** <br>
+*For reviewers interested in the full analytical process and data interpretation.*
+
+- [PowerBI Dashboard](./Consultant_Dashboard.pbix): an operational interactive dashboard;
+
+- [Data Preprocessing Code](./py_code/): production-ready, concise .py preprocessing code.
+
+:eight_spoked_asterisk: **Dependency Management** <br>
+A strictly defined environment manifest ensuring 100% reproducibility and security. Please, follow those steps in case you would like to run the code on your local machine: 
+
+- **Step 1: Initialize the Virtual Environment**
+
+*Linux / macOS Bash*
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+*Windows PowerShell*
+```
+python -m venv .venv
+.venv\Scripts\activate
+```
+- **Step 2: Install Required Dependencies**
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## :large_orange_diamond: Overview
 
 Imagine you are a *Market Research Consultant* hired by a mobile app company. One of your tasks is to assist the *Product Manager* and evaluate their app ideas. 
 Managers need **fast, objective insight** into how their concept fits the current mobile-app landscape.
@@ -73,17 +111,15 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 
 - `Sentiment Subjectivity` – how subjective was the narration of a given text review.
 
-
 ### Tools & Methods
 
-*Data Preprocessing*: Python {`pandas`, `matplotlib`, `seaborn`}
+**Data Preprocessing**: Python {`pandas`, `matplotlib`, `seaborn`}
 
-*Data Analysis and Visualization*: Dashboard – Microsoft PowerBI
+**Data Analysis and Visualization**: Dashboard – Microsoft PowerBI
 
-*Version control & sharing*: Git & GitHub
+**Version control & sharing**: Git & GitHub
 
-
-## :black_circle: Objectives
+## :large_orange_diamond: Objectives
 
 - Prepare a clean, merged dataset from both Kaggle .csv files.
 <br> Code: `preprocessing_code.py`
@@ -103,7 +139,6 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 - Make sure that dashboard design provides a functional market analysis flow useful to Product Managers.
 <br> File: `AppPerformance_dashboard.pbix`
 
-
 ### What this project delivers:
 
 - A reproducible, well-documented merged datasets ready for dashboards or further analyses.
@@ -112,8 +147,7 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 
 - PowerBI Consultant Dashboard – ready to use.
 
-
-### Limitations of data coverage
+### Limitations & Challenges
 
 - The `Last Updated` field does not extend beyond 2018, indicating that the source dataset is no longer current and may not fully reflect today’s app-store landscape.
 
@@ -121,7 +155,7 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 
 :grey_exclamation: This dashboard was created as a portfolio project to demonstrate analytical and data-modelling skills, as well as the Power BI proficiency. While the dataset has clear limitations, it serves adequately for those purposes.
 
-## :black_circle: Presented skills
+## :large_orange_diamond: Presented skills
 
 **Data modelling**
 - Designing a *star-schema model* (fact table + dimension tables).
