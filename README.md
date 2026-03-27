@@ -125,19 +125,19 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 <br> Code: `preprocessing_code.py`
 
 - Load the dataset into PowerBI and prepare a star schema model.
-<br> File: `AppPerformance_dashboard.pbix`
+<br> File: `Consultant_Dashboard.pbix`
 
 - Design drill-down hierarchy for Category-Genre levels, calculated columns and aggregation measures.
-<br> File: `AppPerformance_dashboard.pbix`
+<br> File: `Consultant_Dashboard.pbix`
 
 - Plan for multi-page thematic layouts with navigation and filtering panels.
-<br> File: `AppPerformance_dashboard.pbix`
+<br> File: `Consultant_Dashboard.pbix`
 
 - Create data visualizations, KPI cards and slicers.
-<br> File: `AppPerformance_dashboard.pbix`
+<br> File: `Consultant_Dashboard.pbix`
 
 - Make sure that dashboard design provides a functional market analysis flow useful to Product Managers.
-<br> File: `AppPerformance_dashboard.pbix`
+<br> File: `Consultant_Dashboard.pbix`
 
 ### What this project delivers:
 
