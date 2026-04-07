@@ -10,8 +10,7 @@ I am a Doctor of Neuroscience with strong experience in data analysis, statistic
 - developing my skills in **SQL** (**ETL**, **PostgreSQL**, **pgAdmin4**, **DBeaver**) - see my [SQL portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_eCommerce_Audit),
 - comfortable managing **AI-augmented workflow**, leveraging *Cursor IDE* and *Claude* while ensuring code integrity through manual review - see my [Python/CSS portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_euPOWERED_Navigator),
 - technical documentation in **Jupyter Notebook** (*Markdown* syntax), version control in **Git**.
-
-&emsp; **Location**: Poland, Krakow <br> 
+
 &emsp; **Contact**: dominika.a.drazyk@gmail.com <br> 
 &emsp; **LinkedIn**: [in/dominika-drazyk-otw95](https://www.linkedin.com/in/dominika-drazyk-otw95/)
 
