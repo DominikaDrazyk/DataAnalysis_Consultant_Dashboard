@@ -5,10 +5,10 @@
 I am a Doctor of Neuroscience with strong experience in data analysis, statistical modelling and research design. I focus on translating complex data into actionable insights for business and policy. I enjoy data wrangling, visualization, and project management.
 
 **Skills & tools:** 
-- advanced **R**, advanced **Python** (*pandas*, *NumPy*, *matplotlib*, *seaborn*, *scipy*) - see my [Python portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_Efficiency_and_Diversity), 
+- advanced **R**, advanced **Python** (*pandas*, *NumPy*, *matplotlib*, *seaborn*, *scipy*), 
 - developing my skills in **Power BI** and **Power Apps**,
-- developing my skills in **SQL** (**ETL**, **PostgreSQL**, **pgAdmin4**, **DBeaver**) - see my [SQL portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_eCommerce_Audit),
-- comfortable managing **AI-augmented workflow**, leveraging *Cursor IDE* and *Claude* while ensuring code integrity through manual review - see my [Python/CSS portfolio project](https://github.com/DominikaDrazyk/DataAnalysis_euPOWERED_Navigator),
+- developing my skills in **SQL** (**ETL**, **PostgreSQL**, **pgAdmin4**, **DBeaver**),
+- comfortable managing **AI-augmented workflow**, leveraging *Cursor IDE* and *Claude*,
 - technical documentation in **Jupyter Notebook** (*Markdown* syntax), version control in **Git**.
 
 &emsp; **Contact**: dominika.a.drazyk@gmail.com <br> 
@@ -94,6 +94,26 @@ With these inputs, the app creators can ground their decisions in data rather th
 
 - :part_alternation_mark: Business-relevant insights for mobile app creators, including market research and trend prognosis.
 
+### Objectives
+
+- Prepare a clean, merged dataset from both Kaggle .csv files.
+<br> Code: `preprocessing_code.py`
+
+- Load the dataset into PowerBI and prepare a star schema model.
+<br> File: `Consultant_Dashboard.pbix`
+
+- Design drill-down hierarchy for Category-Genre levels, calculated columns and aggregation measures.
+<br> File: `Consultant_Dashboard.pbix`
+
+- Plan for multi-page thematic layouts with navigation and filtering panels.
+<br> File: `Consultant_Dashboard.pbix`
+
+- Create data visualizations, KPI cards and slicers.
+<br> File: `Consultant_Dashboard.pbix`
+
+- Make sure that dashboard design provides a functional market analysis flow useful to Product Managers.
+<br> File: `Consultant_Dashboard.pbix`
+
 ### Data & Source Metadata
 
 External data source (Kaggle): [Google Play Store Apps dataset](https://www.kaggle.com/datasets/lava18/google-play-store-apps?resource=download) Authored by L. Gupta (2019) and available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
@@ -140,27 +160,7 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 
 **Version control & sharing**: Git & GitHub
 
-## :large_orange_diamond: Objectives
-
-- Prepare a clean, merged dataset from both Kaggle .csv files.
-<br> Code: `preprocessing_code.py`
-
-- Load the dataset into PowerBI and prepare a star schema model.
-<br> File: `Consultant_Dashboard.pbix`
-
-- Design drill-down hierarchy for Category-Genre levels, calculated columns and aggregation measures.
-<br> File: `Consultant_Dashboard.pbix`
-
-- Plan for multi-page thematic layouts with navigation and filtering panels.
-<br> File: `Consultant_Dashboard.pbix`
-
-- Create data visualizations, KPI cards and slicers.
-<br> File: `Consultant_Dashboard.pbix`
-
-- Make sure that dashboard design provides a functional market analysis flow useful to Product Managers.
-<br> File: `Consultant_Dashboard.pbix`
-
-### Limitations & Challenges
+## :large_orange_diamond: Limitations & Challenges
 
 - The `Last Updated` field does not extend beyond 2018, indicating that the source dataset is no longer current and may not fully reflect today’s app-store landscape.
 
@@ -188,3 +188,14 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 - Highlighting *high-impact* apps visually.
 - Organizing visuals into *purposeful pages* aligned with a consulting scenario.
 - Preparing a PowerPoint to *communicate methodology*.
+
+## :large_orange_diamond: Portfolio Gallery
+
+| Project | Business Impact | Key Stack |
+| :--- | :--- | :--- |
+| **[euPOWERED Navigator](https://github.com/DominikaDrazyk/DataAnalysis_euPOWERED_Navigator)** | Policy-driven energy statistics & decarbonization tracking. | Python, Streamlit, Scraping |
+| **[eCommerce Audit](https://github.com/DominikaDrazyk/DataAnalysis_eCommerce_Audit)** | Identifying financial risks and logistical bottlenecks. | PostgreSQL, ETL, Python |
+| **[Consultant Dashboard](https://github.com/DominikaDrazyk/DataAnalysis_Consultant_Dashboard)** | Market viability and competitive landscape engine. | Power BI, DAX, Star Schema |
+| **[Efficiency and Diversity](https://github.com/DominikaDrazyk/DataAnalysis_Efficiency_and_Diversity)** | Statistical research on human capital and spending. | Python, Scraping, Multivariate Stats |
+
+[← Back to Profile](https://github.com/DominikaDrazyk)
