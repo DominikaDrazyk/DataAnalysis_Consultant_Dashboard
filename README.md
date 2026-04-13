@@ -32,22 +32,33 @@ Select the path that best matches your interest:
 - [Data Preprocessing Code](./py_code/): production-ready, concise .py preprocessing code.
 
 :eight_spoked_asterisk: **Dependency Management** <br>
-A strictly defined environment manifest ensuring 100% reproducibility and security. Please, follow those steps in case you would like to run the code on your local machine: 
+This project uses Poetry to ensure a deterministic environment (locked versions) and 100% reproducibility. For basic users, a standard `requirements.txt` is also maintained.
 
-- **Step 1: Initialize the Virtual Environment**
+- **Option 1: Modern Workflow (Recommended)**
+Use this if you have Poetry installed. This will automatically create a virtual environment and install the exact versions from `poetry.lock`.
 
-*Linux / macOS Bash*
 ```
-python3 -m venv .venv
-source .venv/bin/activate
+# Bash
+# Install dependencies and create virtual environment
+poetry install
+# Activate the environment
+poetry shell
 ```
-*Windows PowerShell*
+
+- **Option 2: Standard Workflow (Pip)**
+Use this for a traditional setup using the provided `requirements.txt`.
+
+1. Initialize the Virtual Environment
 ```
-python -m venv .venv
-.venv\Scripts\activate
+# Linux / macOS
+python3 -m venv .venv && source .venv/bin/activate
+# Windows 
+python -m venv .venv && .venv\Scripts\activate
 ```
-- **Step 2: Install Required Dependencies**
+
+2. Install Dependencies
 ```
+# Bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -72,6 +83,16 @@ With these inputs, the app creators can ground their decisions in data rather th
 ![Screenshot of the third dashboard page - YOUR TRENDS.](/images/Consultant_Dashboard_YOUR_TRENDS_OFF.jpg)
 
 ![Screenshot of the third dashboard page - YOUR TRENDS with Filters Panel.](/images/Consultant_Dashboard_YOUR_TRENDS_ON.jpg)
+
+### What this project delivers:
+
+- A reproducible, well-documented merged datasets ready for dashboards or further analyses.
+
+- Re-usable preprocessing code that can refresh results when source datasets are updated.
+
+- PowerBI Consultant Dashboard – ready to use.
+
+- :part_alternation_mark: Business-relevant insights for mobile app creators, including market research and trend prognosis.
 
 ### Data & Source Metadata
 
@@ -138,14 +159,6 @@ External data source (Kaggle): [Google Play Store Apps dataset](https://www.kagg
 
 - Make sure that dashboard design provides a functional market analysis flow useful to Product Managers.
 <br> File: `Consultant_Dashboard.pbix`
-
-### What this project delivers:
-
-- A reproducible, well-documented merged datasets ready for dashboards or further analyses.
-
-- Re-usable preprocessing code that can refresh results when source datasets are updated.
-
-- PowerBI Consultant Dashboard – ready to use.
 
 ### Limitations & Challenges
 

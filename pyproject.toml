@@ -1,0 +1,22 @@
+[project]
+name = "consultant-dashboard"
+version = "0.1.0"
+description = "Dashboard provides a fast, objective insight into how mobile app idea fits the current market landscape."
+authors = [
+    {name = "Dominika Drazyk",email = "dominika.a.drazyk@gmail.com"}
+]
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "pandas (>=3.0.2,<4.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "emoji (>=2.15.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
